@@ -1,11 +1,33 @@
-venv/
-__pycache__/
-db.sqlite3
+# =========================
+# Backend (Django)
+# =========================
+backend/venv/
+backend/__pycache__/
+backend/db.sqlite3
+backend/*.sqlite3
+backend/**/*.pyc
 
-node_modules/
+# =========================
+# Frontend (React)
+# =========================
+frontend/node_modules/
+frontend/dist/
 
-dist/
-
+# =========================
+# Variables de entorno
+# =========================
 .env
+backend/.env
+frontend/.env
 
+# =========================
+# IDE
+# =========================
 .vscode/
+.idea/
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
